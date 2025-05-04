@@ -21,9 +21,7 @@ class MacrodataFile {
   }
 
   assignFile() {
-    // quick fix to ensure you don't get the same filename twice in a row
-    const allFilesButPrevious = files.filter(file => file !== this.fileName);
-    const fileName = allFilesButPrevious[Math.floor(Math.random() * allFilesButPrevious.length)];
+    const fileName = files[Math.floor(Math.random() * files.length)];
     const coordinates = this.#generateCoordinates();
     console.log('assigning', fileName);
     const macrodata = {
