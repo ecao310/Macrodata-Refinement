@@ -1,16 +1,6 @@
 // TODO: add more file names
 const files = [
-  'Siena',
-  'Nanning',
-  'Narva',
-  'Ocula',
-  'Kingsport',
-  'Labrador',
-  'Le Mars',
-  'Longbranch',
-  'Moonbeam',
-  'Minsk',
-  'Dranesville',
+  'Welcome JiXin C.'
 ];
 
 const emptyBins = [
